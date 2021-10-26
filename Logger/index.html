@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Report.css">
+    <title>Payment Report</title>
+</head>
+<body>
+
+    
+    <div id="ReportsHeader">
+        <h1 id="GiftHeader">GREEN INNOVATIONS FOR TOMORROW CORPORATION</h1>
+        <h2 id="GiftAddress">BACAL 2, TALAVERA, NUEVA ECIJA</h2>
+        <hr>
+
+        <h2 id="TitleText">Payment Report</h2>
+        <h2 id="ClientNameText">ABAR RICE MILL</h2>
+        
+        
+        
+        <div id= "DateFromToTextContainer">
+            <b>Date From:</b>
+            <p id="DateFromText">10/9/2021</p>
+            <div></div>
+            <b>Date To:</b>
+            <p id="DateToText"> 10/9/2021</p>
+        </div>
+
+    </div>
+
+    <div id="ReportsTableContainer">
+        <div>
+            <h4 id="ReportsTableDate"></h4>
+            <table id="SummaryTable" cellspacing="0">
+                <tr>
+                    <th>Total Deliveries:</th>
+                    <td id="TotalDeliveriesText"></td>
+                </tr>
+                <tr>
+                    <th>Total Price:</th>
+                    <td id="TotalPriceText"></td>
+                </tr>
+                <tr>
+                    <th>Total No. Of Trucks:</th>
+                    <td id="TotalTrucksText"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <table id="PaymentReportsTable" >
+            <tr id="PaymentReportsTableHeader">
+                
+                <th>Transaction Number</th>
+                <th>Weigh (IN)</th>
+                <th>Weigh (OUT)</th>
+                <th>Net Weight</th>
+                <th>Out Date</th>
+                <th>Transaction Type</th>
+                <th>Price Per Kg</th>
+                <th>Total Price</th>
+                <th>Cheque Number</th>
+                <th>Bank</th>
+
+            </tr>
+
+            
+            
+        </table>
+
+    </div>
+    
+    <div id="ReportsFooter">
+        <h1 class="ReportsFootertext" id="RecievePaymentText">Recieved Payment:</h1>
+        <h1 class="ReportsFootertext" id="RecievePaymentDateText">Date:</h1>
+        <h1 class="ReportsFootertext">Paid By:</h1>   
+        <h1 class="ReportsFootertext">Date:</h1>
+        
+    </div>
+
+    <form action="PaymentReports.php" method="post" id="TransListForm">
+        <input type="hidden" name="TransList" id="TransList">
+    </form>
+</body>
+</html>

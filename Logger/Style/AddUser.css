@@ -1,0 +1,163 @@
+.Inline{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+#addUserForm
+{
+    display: grid;
+    grid-template-rows: 25vh 2vh 25vh 10vh;
+    margin: 2%;
+    width:90%;
+    height: 80%;
+    padding:30px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+}
+
+.personalInformationInputContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    
+}
+
+.nameInput
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    
+}
+
+.personalInformationInput2
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+
+#genderRadio
+{
+    color: #2e2e2e;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin:auto;
+
+    
+}
+
+.RadioMiddle{
+    margin:auto;
+}
+.RadioLabelLeft{
+    margin:auto;
+}
+
+
+
+
+.doubleColoumnContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:100%;
+    width: 100%;
+    align-items: center;
+}
+
+#birthDateInput
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+    width:90%;
+    height:20px;
+}
+
+#personalInformationInput3
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#accountInformationInputContainer
+{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+}
+#accountCredentialsInput
+{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+#accountCredentialsInput2{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+#authorityCbox{
+    height:20px;
+    margin-right: 10%;
+    
+    
+}
+
+#addAccountSubmit{
+    
+    width: 200px;
+    height: 30px;
+    margin:auto;
+    margin-top: 10%;
+
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    color:#232f46;
+    
+}
+
+#addAccountSubmit:hover{
+    
+    animation: HoverButton linear 100ms;
+    border: 1px solid #2e2e2e;
+    background-color: #017eec;
+    color:white;
+    
+
+}
+
+@keyframes HoverButton{
+    from{
+        background-color: #03437731;
+        color:#232f46;
+    }
+    to{
+        background-color: #017eec;
+        color:white;
+    }
+}
+
+
+/* Change Password */
+

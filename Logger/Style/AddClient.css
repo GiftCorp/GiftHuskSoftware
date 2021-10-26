@@ -1,0 +1,164 @@
+
+
+#AddClientForm{
+    
+    height:auto;
+    width:92%;
+    margin: 2%;
+    display:grid;
+    padding: 2%;
+    padding-left: 2%;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius:5px;
+}
+
+#AddClientSubmit{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    color:#232f46;
+    height:25px;
+    width: 150px;
+    margin: auto;
+
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+}
+
+#AddClientSubmit:hover{
+    animation: HoverButton linear 100ms;
+    height:25px;
+    background-color: #017eec;
+    color:white;
+    
+
+}
+
+@keyframes HoverButton{
+    from{
+        background-color: white;
+        color:#232f46;
+    }
+    to{
+        background-color: #034377;
+        color:white;
+    }
+}
+
+
+#ClientListTable{
+    margin-top: -20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 30px;
+    width: 100%;
+}
+
+#ClientListTable2{
+    overflow:hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
+#ClientListContainer{
+    margin-top: -1vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80vh;
+}
+
+#ClientListContainer2{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-right: 1%;
+}
+
+
+#ClientList{
+    height:90%;
+    width:75vw;
+    margin: auto;
+    margin-top: 2%;
+    display:grid;
+    grid-template-rows:28px 95vh;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    padding:5px;
+    padding-top: 20px;
+    
+}
+
+
+
+.ClientTableHeader{
+    
+    font-family:sans-serif;
+    font-size: 1em;
+    color:#2e2e2e;
+    text-align:center;
+    border-bottom: 1px solid white;
+}
+.ClientTableData{
+    font-family:sans-serif;
+    font-size: .9em;
+    color:#2e2e2e;
+    text-align:center;
+    
+    
+}
+
+.ClientTableData2{
+    font-family:sans-serif;
+    font-size: .9em;
+    color:#2e2e2e;
+    text-align:center;
+    
+    
+}
+
+
+#UpdateClientForm{
+    display:grid;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    grid-template-columns: 35% 65%;
+    padding:2%;
+    margin:2%;
+}
+
+#UpdateClientBottomContainer{
+    margin-left: 1vw;
+    margin-top: 3vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items:center;
+}
+
+#UC_BackArrow:hover{
+    cursor:pointer;
+}
+
+#UpdateClientSubmit{
+    
+    width: 200px;
+    margin:auto;
+}
+
+#DeleteClientButton{
+    width: 200px;
+    margin:auto;
+}
+
+#UpdateClientSubmit:hover{
+    animation: HoverButton linear 100ms;
+    background-color: #034377;
+    color:white;
+}

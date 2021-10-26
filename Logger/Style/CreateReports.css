@@ -1,0 +1,121 @@
+#CreateReportsContentContainer{
+    display:grid;
+    grid-template-rows: 25vh 50vh 20vh;
+   
+}
+
+#CR_FilterContainer{
+    margin:2%;
+    margin-bottom: 1%;
+    display:grid;
+    grid-template-rows: 30% 35% 35%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+    padding: 1%;
+}
+
+#CR_TableContainer{
+    margin:2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding:1%;
+}
+
+#CR_CreateReportContainer{
+    margin:2%;
+    margin-top: 1%;
+}
+
+#CR_FilterHeader{
+    text-align: center;
+    margin-top: 0;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+
+.CR_HeaderTableContainer{
+    margin-right: 2%;
+    height: 20px;
+    overflow: hidden;
+}
+
+#CRA_HeaderTable{
+    width: 100%;
+    text-align: center;
+}
+#CRUP_HeaderTable{
+    
+    width: 100%;
+    text-align: center;
+}
+#CRP_HeaderTable{
+
+    width: 100%;
+    text-align: center;
+}
+
+#CRA_TableContainerData{
+    height:40vh;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+#CRUP_TableContainerData{
+    height:40vh;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+#CRP_TableContainerData{
+    height:40vh;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+#CRA_Table{
+    margin-top: -20px;
+    width: 100%;
+    
+    text-align: center;
+}
+#CRUP_Table{
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+}
+#CRP_Table{
+    margin-top: -20px;
+    width: 100%;
+    
+    text-align: center;
+}
+
+#CR_CreateReportContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:2%;
+    grid-gap: 2%;
+}
+
+.CR_TableData{
+    font-family: sans-serif;
+    font-size: .9em;
+    color:#2e2e2e;
+}
+
+.CR_ButtonStyle{
+    border: 1px solid #2e2e2e;
+    background-color:#03437731;
+    font-family: sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    color:#232f46;
+}
+
+.CR_ButtonStyle:hover{
+    animation: HoverButton linear 100ms;
+    background-color: #034377;
+    color: white;
+    cursor: pointer;
+}

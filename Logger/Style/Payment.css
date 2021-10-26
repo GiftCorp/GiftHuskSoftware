@@ -1,0 +1,286 @@
+
+
+#P_ContentContainer{
+    width:90%;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 5%;
+    margin:2%;
+    height:100%;
+}
+
+#P_MainContentContainer{
+    height:100%;
+}
+
+#P_ContentContainerLeft{
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    height:70vh;
+}
+
+#P_ContentLeft{
+    display: grid;
+    grid-template-rows: 10vh 20vh  35vh 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#P_SearchContainer{
+    height: 12vh;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    margin: 2%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#P_ButtonSearch{
+    height: 25px;
+    width: 70px;
+}
+
+#P_SearchText{
+    margin:auto;
+    margin-top: 0;
+}
+
+
+
+
+
+#P_CurrentClientContainer{
+    margin-top: 5%;
+}
+
+#P_CurrentClientHeader{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#2e2e2e;
+    font-weight: bold;
+}
+
+#P_CurrentClient{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:gray;
+    font-weight: bold;
+}
+
+#P_SelectDateButton{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.P_Button{
+    border: 1px solid #2e2e2e;
+    background-color:#03437731;
+    font-family: sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    color:#232f46;
+    height:25px;
+}
+
+.P_ButtonDisabled{
+    border: 1px solid #2e2e2e;
+    background-color:#03437731;
+    font-family: sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    color:#232f46;
+    height:25px;
+    opacity:.7;
+}
+
+#P_SelectDateRangeContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 30px 30px;
+    grid-gap: 2%;
+    align-items:center;
+}
+
+.P_Button:hover
+{
+    animation: HoverButton linear 100ms;
+    background-color: #034377;
+    color: white;
+    cursor: pointer;
+}
+
+#P_ContentContainerRight{
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    height:70vh;
+    padding:2%;
+    margin-right: -2%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#P_ContainerRightTableA{
+    display:grid;
+    grid-template-rows: 28px 1fr;
+
+}
+
+#P_TableHeaderContainerA{
+    height:25px;
+    overflow:hidden;
+    text-align:center;
+}
+
+#P_TableHeaderA{
+    margin-top: 6px;
+    width:100%;
+}
+
+#P_TableContainerA{
+    margin-top: -20px;
+    
+}
+
+#P_TableA{
+    width:100%;
+    
+}
+
+.P_TableData{
+    text-align:center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color:#2e2e2e;
+}
+
+/*Right Content B */
+
+#P_ContainerRightTableB{
+    margin-top: 15px;
+    display:grid;
+    grid-template-rows: 28px 55vh 10px;
+    
+}
+
+#P_TableHeaderB{
+    width:100%;
+    text-align: center;
+    opacity: 1;
+}
+
+#P_TableHeaderContainerB{
+    height:23px;
+    overflow:hidden;
+    margin-right: 2%;
+    
+}
+
+#P_TableContainerB{
+    
+    
+    overflow:scroll;
+    overflow-x: hidden;
+    height: 55vh;
+}
+
+#P_TableB{
+    margin-top: -23px;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+}
+
+
+/* Spec Info */
+
+
+#P_SpecInfoContent{
+    display:grid;
+    grid-template-columns: 1fr 1px 1fr;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    margin:2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#P_SpecInfoContentLeft{
+    display:grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-template-rows:40px 40px 40px ;
+    padding-right:5%;
+    padding-left: 2%;
+    align-items: center;
+}
+
+#P_SpecInfoContentRight{
+    display:grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-template-rows:40px 40px 40px ;
+    align-items: center;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#P_RemarksContainer{
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius:5px;
+    padding:2%;
+    width:40vw;
+    height:30vh;
+    margin:auto;
+
+}
+
+#PSPEC_Remarks{
+    padding:2%;
+    border: 1px solid gray;
+    font-family: sans-serif;
+    color:#2e2e2e;
+    font-size: 14;
+    height:20vh;
+}
+
+#P_BackArrow{
+    margin-top: 1%;
+}
+#PSPEC_BackArrow{
+    margin:2%;
+    margin-bottom: 0;
+}
+
+#PSPEC_BackArrow:hover{
+    cursor: pointer;
+}
+
+#P_BackArrow:hover{
+    cursor: pointer;
+}
+
+
+/* Pop */
+
+
+#P_PopUpContainer{
+    background-color:white;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius:5px;
+    height:25vh;
+    width:20vw;
+    padding:10px;
+    padding-top: 25px;
+
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 8vw 12vw;
+    align-items: center;
+
+}
+
+#P_PopUpPayButton{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

@@ -1,0 +1,95 @@
+
+
+#ListUserContent{
+    margin:2%;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 5px;
+    height:80vh;
+    padding: 2%;
+    display: grid;
+    grid-template-rows:20px 1fr ;
+}
+
+#LU_TableContainer{
+    height: 78vh;
+    overflow-y: scroll;
+}
+#LU_TableHeaderContainer{
+    margin-right: 2%;
+    height:20px;
+    overflow:hidden;
+}
+
+#LU_HeaderTable{
+    width:100%;
+}
+
+#LU_Table{
+    margin-top: -20px;
+    width:100%;
+}
+
+.LU_TableData{
+    font-family:sans-serif;
+    font-size: .9em;
+    color:#2e2e2e;
+    text-align:center;
+}
+
+
+
+.LU_TableHeader{
+    font-family:sans-serif;
+    font-size: 1em;
+    color:#2e2e2e;
+    text-align:center;
+    border-bottom: 1px solid white;
+}
+
+#UpdateUserContainer{
+
+    margin:2%;
+    padding: 2%;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius:5px;
+
+}
+
+#UpdateUserBottomContainer{
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#UpdateUserButton{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#DeleteUserButton{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#UU_authorityCbox{
+    height:20px;
+    margin-right: 10%;
+}
+
+#UU_BackArrow:hover{
+    cursor: pointer;
+}
+
+
+#ChangePasswordContainer{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.InputContainer{
+    display: grid;
+    grid-template-columns:  1.5fr 3fr;
+    align-items: center;
+}
+    
